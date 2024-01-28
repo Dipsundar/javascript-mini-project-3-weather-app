@@ -1,8 +1,7 @@
 const myKey = config.MY_KEY;
 const secretKey = config.SECRET_KEY;
-const key2 = config.KEY_2;
 
-const apiKey = myKey + secretKey + key2;
+const apiKey = myKey + secretKey;
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=`;
 
 // dom selection variable
